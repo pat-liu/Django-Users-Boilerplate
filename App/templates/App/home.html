@@ -3,9 +3,33 @@
 <div class="container">
     <div class="row">
         <div class="jumbotron">
-            <h1>Hello</h1>
-            <p>You are on your Dashboard</p>
+            <h2>Welcome to the main feed!</h2>
         </div>
     </div>
 </div>
+
+<div class="container">
+    <div class="row">
+        <!-- Blog Entries Column -->
+        <div style="margin:auto">
+            {% for post in post_list %}
+            <div class="card mb-4" style="border: 2px solid black; padding: 20px">
+                <div class="card-body">
+                    <h2 class="card-title">{{ post.title }}</h2>
+                    <p class="card-text text-muted h6">{{ post.author }} | {{ post.created_on}} </p>
+                    {% if post.author == user%}
+                      <a href="/delete/{{post.title}}"><p class="btn btn-primary">Delete &nbsp; ✗</p></a>
+                    {% else %}
+                    {% endif %}
+                </div>
+            </div>
+            <br>
+            {% endfor %}
+        </div>
+
+    </div>
+</div>
+
 {% endblock %}
+
+
