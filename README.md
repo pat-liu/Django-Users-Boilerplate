@@ -4,7 +4,7 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/vigzmv/Django-Users-boilerplate)  &nbsp;&nbsp;
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/vigzmv/Django-Users-boilerplate)
 
-### A Django boilerplate with User Registeration, Login and Password change views.    
+### Utilized A Django boilerplate with User Registeration, Login and Password change views.    
 This boilerplate can be used to create Django projects with user management quicker.
   
 ## Usage
