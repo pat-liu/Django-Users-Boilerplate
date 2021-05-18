@@ -1,4 +1,4 @@
-# Django Users Boilerplate
+# Simplified (Text-only) Instagram via Django. 
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=102)](https://github.com/vigzmv/Django-Users-boilerplate)  &nbsp;&nbsp;
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/vigzmv/Django-Users-boilerplate)  &nbsp;&nbsp;
